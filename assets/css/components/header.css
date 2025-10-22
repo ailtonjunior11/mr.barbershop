@@ -1,0 +1,124 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 5rem;
+  padding: 0.5rem 2rem;
+  transition: background 0.5s ease, backdrop-filter 0.5s ease;
+}
+
+header.scrolled {
+  background: rgba(0, 0, 0, 0.426);
+  backdrop-filter: blur(10.3px);
+  -webkit-backdrop-filter: blur(10.3px);
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-tertiary);
+}
+
+.logo span {
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-semibold);
+}
+
+.list-items {
+  display: flex;
+  gap: 2rem;
+}
+
+.items a {
+  position: relative;
+  font-size: 1rem;
+  font-weight: var(--font-weight-regular);
+  padding-inline: 1.1rem;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+  color: var(--color-secondary);
+}
+
+.items a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 0.01rem;
+  background-color: var(--color-secondary);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.2;
+}
+
+.items a:hover::after {
+  width: 100%;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+/* configuração menu mobile */
+.icon-open,
+.icon-close {
+  width: 1.7rem;
+  height: auto;
+  cursor: pointer;
+}
+
+.list-items-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: right;
+  padding: 2rem 2.2rem 0 0;
+  position: absolute;
+  top: 4.9rem;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  background: #000000de;
+  transition: right 0.8s ease-in-out;
+}
+
+.items-mobile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.items-mobile a {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-secondary);
+}
+
+.icon-open {
+  display: block;
+}
+
+.icon-close {
+  display: none;
+}
+
+/* responsividade da seção */
+@media (max-width: 1000px) {
+  .nav-desktop {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .list-items-mobile.active {
+    right: 0;
+  }
+}

@@ -1,0 +1,153 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #313131bc;
+}
+
+.title-form {
+  font-size: 2rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-secondary);
+  border-bottom: solid 0.1rem var(--color-tertiary);
+  width: fit-content;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+form input {
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  background: #0000008c;
+  color: var(--color-secondary);
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-regular);
+  color: #ffffff5c;
+}
+
+form textarea {
+  font-size: 1rem;
+  font-weight: var(--font-weight-light);
+  padding: 1rem;
+  height: 8rem;
+  border-radius: 0.3rem;
+  background: #0000008c;
+  resize: none;
+  color: var(--color-secondary);
+}
+
+.btn-form {
+  font-size: 1rem;
+  font-weight: var(--font-weight-semibold);
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  border: solid 0.12rem var(--color-primary);
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  background: #3131318e;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.social-media h4 {
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-regular);
+  margin-bottom: 1rem;
+  color: #979797;
+}
+
+.icons-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.icons-sociais i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* responsividade */
+
+@media (max-width: 1000px) {
+  .contacts {
+    flex-direction: column;
+  }
+
+  .icons-sociais i:hover {
+    box-shadow: none;
+    color: var(--color-secondary);
+  }
+
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-form {
+    font-size: 1.7rem;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+
+  .btn-form {
+    width: 100%;
+    padding: 0.6rem;
+  }
+
+  .social-media {
+    text-align: center;
+    gap: 0.5rem;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .social-media h4 {
+    font-size: 1rem;
+    font-weight: var(--font-weight-regular);
+    margin-bottom: 0.5rem;
+    color: #979797;
+  }
+
+  .icons-sociais {
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .icons-sociais i {
+    font-size: 1.5rem;
+  }
+}

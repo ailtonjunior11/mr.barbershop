@@ -1,0 +1,9 @@
+@import "./global.css";
+
+@import "./components/header.css";
+@import "./components/home.css";
+@import "./components/about.css";
+@import "./components/products.css";
+@import "./components/contacts.css";
+@import "./components/reviews.css";
+@import "./components/footer.css";

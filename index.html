@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- Link do Swiper CSS -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <!-- Link do ScrollReveal JS -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- Link do Boxicons CSS -->
+      <link rel="shortcut icon" href="./assets/img/icons/barber-pole.svg" type="image/svg"> <!-- Icone da página -->
+      <link rel="stylesheet" href="./assets/css/files.css"> <!-- Link do arquivo CSS -->
+      <title>MR. Barber Shop</title> <!-- Titulo da página -->
+</head>
+
+<body>
+
+      <header>
+            <h2 class="logo">MR.<span>BarberShop</span></h2>
+            </a> <!-- Logo da loja -->
+            <nav class="nav-desktop">
+                  <ul class="list-items">
+                        <li class="items"><a href="#home">Início</a></li>
+                        <li class="items"><a href="#about">Sobre</a></li>
+                        <li class="items"><a href="#products">Produtos</a></li>
+                        <li class="items"><a href="#contacts">Contatos</a></li>
+                        <li class="items"><a href="#reviews">Avaliações</a></li>
+                  </ul> <!-- Itens da barra de navegação -->
+            </nav> <!-- Barra de navegação -->
+
+            <nav class="nav-mobile">
+                  <ul class="list-items-mobile">
+                        <li class="items-mobile"><a href="#home">Início</a></li>
+                        <li class="items-mobile"><a href="#about">Sobre</a></li>
+                        <li class="items-mobile"><a href="#products">Produtos</a></li>
+                        <li class="items-mobile"><a href="#contacts">Contatos</a></li>
+                        <li class="items-mobile"><a href="#reviews">Avaliações</a></li>
+                  </ul> <!-- Itens da barra de navegação mobile -->
+
+                  <img class="icon-open" id="icon-open" src="./assets/img/icons/open-menu.svg"
+                        alt="Icone abrir do menu mobile">
+                  <!-- Icone abrir do menu mobile -->
+                  <img class="icon-close" id="icon-close" src="./assets/img/icons/close-menu.svg"
+                        alt="Icone fechar do menu mobile">
+                  <!-- Icone fechar do menu mobile -->
+      </header> <!-- Cabeçalho -->
+
+      <main>
+            <section class="home" id="home">
+                  <div class="home-content">
+                        <h1>ELEVE O PADRÃO DA SUA BARBEARIA</h1>
+                        <p>Produtos profissionais que valorizam seu talento e realçam cada corte. Da lâmina ao
+                              acabamento, tudo que você
+                              precisa para entregar excelência está aqui.</p>
+                        <div class="home-buttons">
+                              <a href="#produtos" class="btn-primary">Explorar Produtos</a>
+                              <a href="#information" class="btn-secondary">Fale com um especialista</a>
+                        </div> <!-- Botões da sessão home -->
+                  </div> <!-- Conteúdo da sessão home -->
+            </section> <!-- Sessão home -->
+
+            <section class="about" id="about">
+                  <img class="img-about" src="./assets/img/barbershop.png" alt="Imagem de uma barbearia">
+                  <!-- Imagem da sessão sobre a loja -->
+                  <div class="text-about">
+                        <h2 class="title-section">Sobre a PrimeBarber</h2>
+                        <p class="paragraph-section">Na MR.BarberShop, entendemos que cada corte de cabelo é uma
+                              expressão
+                              única de estilo e personalidade.
+                              Por isso, oferecemos uma seleção exclusiva de produtos profissionais, cuidadosamente
+                              escolhidos para atender às necessidades dos barbeiros mais exigentes.</p>
+                  </div> <!-- Texto da sessão sobre a loja -->
+            </section> <!-- Sessão sobre a loja -->
+
+            <section class="protucts" id="products">
+                  <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                    <div class="image">
+                                          <img src="./assets/img/img-products-1.jpg" alt="Imagem do produto">
+                                    </div> <!-- Imagem do produto -->
+                                    <article class="info-products">
+                                          <h3>Pomadas e acessórios</h3>
+                                          <p>Pomadas e balms que modelam, hidratam e
+                                                perfumam com excelência.</p>
+                                          <a href="">Comprar agora &RightArrow;</a>
+                                    </article> <!-- Artigo do produto -->
+                              </div> <!-- Slide 1 -->
+                              <div class="swiper-slide">
+                                    <div class="image">
+                                          <img src="./assets/img/img-products-2.jpg" alt="Imagem do produto">
+                                    </div> <!-- Imagem do produto -->
+                                    <article class="info-products">
+                                          <h3>Capas de corte</h3>
+                                          <p>Proteção, conforto, resistente, design sofisticado e estilo no atendimento.
+                                          </p>
+                                          <a href="">Comprar agora &RightArrow;</a>
+                                    </article> <!-- Artigo do produto -->
+                              </div> <!-- Slide 2 -->
+                              <div class="swiper-slide">
+                                    <div class="image">
+                                          <img src="./assets/img/img-products-3.jpg" alt="Imagem do produto">
+                                    </div> <!-- Imagem do produto -->
+                                    <article class="info-products">
+                                          <h3>Navalhete</h3>
+                                          <p>Cortes precisos e seguros com design moderno e empunhadura ergonômica.</p>
+                                          <a href="">Comprar agora &RightArrow;</a>
+                                    </article> <!-- Artigo do produto -->
+                              </div> <!-- Slide 3 -->
+                              <div class="swiper-slide">
+                                    <div class="image">
+                                          <img src="./assets/img/img-products-4.jpg" alt="Imagem do produto">
+                                    </div> <!-- Imagem do produto -->
+                                    <article class="info-products">
+                                          <h3>Maquinas de corte</h3>
+                                          <p>Cortes rápidos, acabamento impecável e desempenho silencioso. Precisão em
+                                                um
+                                                só toque.</p>
+                                          <a href="">Comprar agora &RightArrow;</a>
+                                    </article> <!-- Artigo do produto -->
+                              </div> <!-- Slide 4 -->
+                              <div class="swiper-slide">
+                                    <div class="image">
+                                          <img src="./assets/img/img-products-5.jpg" alt="Imagem do produto">
+                                    </div> <!-- Imagem do produto -->
+                                    <article class="info-products">
+                                          <h3>Tesouras e pentes</h3>
+                                          <p>Ferramentas afiadas e duráveis para cortes limpos e finalizações perfeitas.
+                                          </p>
+                                          <a href="">Comprar agora &RightArrow;</a>
+                                    </article> <!-- Artigo do produto -->
+                              </div> <!-- Slide 5 -->
+                              <div class="swiper-slide">
+                                    <div class="image">
+                                          <img src="./assets/img/img-products-6.jpg" alt="Imagem do produto">
+                                    </div> <!-- Imagem do produto -->
+                                    <article class="info-products">
+                                          <h3>Cadeiras</h3>
+                                          <p>Conforto e elegância incomparáveis. Acabamento premium
+                                                para elevar sua barbearia.</p>
+                                          <a href="">Comprar agora &RightArrow;</a>
+                                    </article> <!-- Artigo do produto -->
+                              </div> <!-- Slide 6 -->
+                        </div> <!-- Swiper wrapper -->
+                        <!-- Botões de navegação do Swiper -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                        <div class="swiper-pagination"></div> <!-- Paginação do Swiper -->
+                  </div> <!-- Swiper -->
+            </section> <!-- Sessão produtos -->
+
+            <section class="contacts" id="contacts">
+                  <form>
+                        <h2 class="title-form">Fale Conosco</h2>
+                        <input type="text" placeholder="Nome Completo" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="tel" placeholder="Telefone" required>
+                        <textarea placeholder="Escreva sua mensagem aqui..." required></textarea>
+                        <button type="submit" class="btn-form">Enviar Mensagem</button>
+                  </form> <!-- Formulário de contato -->
+
+                  <div class="social-media">
+                        <h4>Entre em contato pelas redes sociais:</h4>
+                        <div class="icons-sociais">
+                              <i class='bx bxl-whatsapp'></i>
+                              <i class='bx bxl-instagram'></i>
+                              <i class='bx bxl-facebook'></i>
+                              <i class='bx bxl-tiktok'></i>
+                              <i class='bx bxl-youtube'></i>
+                        </div> <!-- Ícones das redes sociais -->
+                  </div> <!-- Redes sociais -->
+            </section> <!-- Sessão contatos -->
+
+            <section class="reviews" id="reviews">
+                  <div class="swiper mySwiper swiper-reviews">
+                        <div class="swiper-wrapper">
+                              <div class="swiper-slide card-reviews">
+                                    <img class="img-user" src="./assets/img/user-1.png" alt="Imagem do usuário">
+                                    <div class="text-slide">
+                                          <h5>Alice Santos</h5> <!-- Nome do usuário -->
+                                          <div class="star">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                          </div> <!-- Avaliação em estrelas -->
+                                          <p>
+                                                "Comprei minhas tesouras e máquinas aqui na MR. BarberShop e fiquei
+                                                impressionado com a
+                                                qualidade dos produtos."
+                                          </p> <!-- Depoimento do usuário -->
+                                    </div> <!-- Texto do slide -->
+                              </div> <!-- Slide 1 -->
+                              <div class="swiper-slide card-reviews">
+                                    <img class="img-user" src="./assets/img/user-2.png" alt="Imagem do usuário">
+                                    <div class="text-slide">
+                                          <h5>Murilo Silva</h5> <!-- Nome do usuário -->
+                                          <div class="star">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                          </div> <!-- Avaliação em estrelas -->
+                                          <p>
+                                                "Já fiz várias compras na MR. BarberShop e nunca tive problema.
+                                                Atendimento
+                                                excelente e produtos originais. Confio de olhos
+                                                fechados!"
+                                          </p> <!-- Depoimento do usuário -->
+                                    </div> <!-- Texto do slide -->
+                              </div> <!-- Slide 2 -->
+                              <div class="swiper-slide card-reviews">
+                                    <img class="img-user" src="./assets/img/user-3.png" alt="Imagem do usuário">
+                                    <div class="text-slide">
+                                          <h5>Alice Santos</h5> <!-- Nome do usuário -->
+                                          <div class="star">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                          </div> <!-- Avaliação em estrelas -->
+                                          <p>
+                                                "A MR. BarberShop entende o que a gente precisa no dia a dia da
+                                                barbearia. Virou minha loja de confiança!"
+                                          </p> <!-- Depoimento do usuário -->
+                                    </div> <!-- Texto do slide -->
+                              </div> <!-- Slide 3 -->
+                              <div class="swiper-slide card-reviews">
+                                    <img class="img-user" src="./assets/img/user-4.png" alt="Imagem do usuário">
+                                    <div class="text-slide">
+                                          <h5>Alice Santos</h5> <!-- Nome do usuário -->
+                                          <div class="star">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                          </div> <!-- Avaliação em estrelas -->
+                                          <p>
+                                                "Achei incrível a variedade e o preço justo. Desde então, só compro
+                                                aqui. A
+                                                MR. BarberShop é sinônimo de confiança!"
+                                          </p> <!-- Depoimento do usuário -->
+                                    </div> <!-- Texto do slide -->
+                              </div> <!-- Slide 4 -->
+                              <div class="swiper-slide card-reviews">
+                                    <img class="img-user" src="./assets/img/user-5.png" alt="Imagem do usuário">
+                                    <div class="text-slide">
+                                          <h5>Alice Santos</h5> <!-- Nome do usuário -->
+                                          <div class="star">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                          </div> <!-- Avaliação em estrelas -->
+                                          <p>
+                                                "Produtos de alto padrão e atendimento que realmente faz diferença. Dá
+                                                pra perceber o cuidado em cada detalhe."
+                                          </p> <!-- Depoimento do usuário -->
+                                    </div> <!-- Texto do slide -->
+                              </div> <!-- Slide 5 -->
+                              <div class="swiper-slide card-reviews">
+                                    <img class="img-user" src="./assets/img/user-6.png" alt="Imagem do usuário">
+                                    <div class="text-slide">
+                                          <h5>Alice Santos</h5> <!-- Nome do usuário -->
+                                          <div class="star">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                          </div> <!-- Avaliação em estrelas -->
+                                          <p>
+                                                "A MR. BarberShop elevou o nível do meu atendimento. As ferramentas que
+                                                comprei melhoraram muito o resultado do meu
+                                                trabalho."
+                                          </p> <!-- Depoimento do usuário -->
+                                    </div> <!-- Texto do slide -->
+                              </div> <!-- Slide 6 -->
+                        </div> <!-- Swiper wrapper -->
+                        <!-- Botões de navegação do Swiper -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                        <div class="swiper-pagination"></div> <!-- Paginação do Swiper -->
+                  </div>
+            </section> <!-- Sessão avaliações -->
+
+            <footer>
+                  <h2 class="logo-footer">MR.<span>BarberShop</span></h2> <!-- Logo do rodapé -->
+                  <nav class="nav-footer">
+                        <span>Menu</span> <!-- Título da barra de navegação -->
+                        <ul class="list-items-footer">
+                              <li class="items-footer"><a href="#home">Início</a></li>
+                              <li class="items-footer"><a href="#about">Sobre</a></li>
+                              <li class="items-footer"><a href="#products">Produtos</a></li>
+                              <li class="items-footer"><a href="#contacts">Contatos</a></li>
+                              <li class="items-footer"><a href="#reviews">Avaliações</a></li>
+                        </ul> <!-- Itens da barra de navegação -->
+                  </nav> <!-- Barra de navegação -->
+
+                  <div class="social-media-footer">
+                        Nossas redes sociais
+                        <div class="icons-sociais-footer">
+                              <i class='bx bxl-whatsapp'></i>
+                              <i class='bx bxl-instagram'></i>
+                              <i class='bx bxl-facebook'></i>
+                              <i class='bx bxl-tiktok'></i>
+                              <i class='bx bxl-youtube'></i>
+                        </div> <!-- Ícones das redes sociais -->
+                  </div> <!-- Redes sociais do rodapé -->
+                  <div class="copyright">
+                        Copyright
+                        <p>&copy; 2025 MR. BarberShop. <br> Todos os direitos reservados.</p>
+                  </div> <!-- Direitos autorais do rodapé -->
+            </footer> <!-- Rodapé da página -->
+      </main> <!-- Conteúdo principal da página -->
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- Link do Swiper JS -->
+</body>
+
+<script src="./assets/js/scrollreveal.js"></script> <!-- Link do arquivo JS -->
+<script src="./assets/js/products.js"></script> <!-- Link do arquivo JS -->
+<script src="./assets/js/menu.js"></script> <!-- Link do arquivo JS -->
+
+</html>

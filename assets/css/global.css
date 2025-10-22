@@ -1,0 +1,40 @@
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"); /* Fonte principal */
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+  --color-tertiary: #d4af37;
+  --font-primary: "Lato", sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 700;
+  --font-weight-bold: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  color: var(--color-secondary);
+  letter-spacing: 0.2rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100dvh;
+  background-color: var(--color-primary);
+}
+
+main {
+  min-height: 100vh;
+}
+
+section {
+  height: 100vh;
+}
