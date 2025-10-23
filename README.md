@@ -21,3 +21,6 @@
 
 ###### Mockups:
 <img src="https://github.com/ailtonjunior11/mr.barbershop/blob/main/assets/img/mockups.png?raw=true" />
+<br>
+
+<b>🏗️ Projeto freelancer criado por - Ailton Junior 🧑🏻‍💻</b>
