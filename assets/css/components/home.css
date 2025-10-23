@@ -37,7 +37,7 @@
 .home-content p {
   font-size: 1.1rem;
   font-weight: var(--font-weight-regular);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .home-buttons {
@@ -86,11 +86,11 @@
   }
 
   .home-content h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   .home-content p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .btn-primary:hover,

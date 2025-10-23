@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #131313;
   padding: 0 2rem;
 }
 
@@ -48,4 +47,10 @@
 .text-slide p {
   font-size: 0.9rem;
   font-weight: var(--font-weight-light);
+}
+
+@media (max-width: 1000px) {
+  .swiper-reviews {
+    height: 70%;
+  }
 }

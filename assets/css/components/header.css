@@ -95,7 +95,7 @@ header.scrolled {
 }
 
 .items-mobile a {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: var(--font-weight-regular);
   color: var(--color-secondary);
 }
